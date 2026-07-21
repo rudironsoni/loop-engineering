@@ -40,34 +40,14 @@ echo "Building and testing readiness-core…"
 echo "Building and testing loop-audit…"
 (
   cd tools/loop-audit
-  cp package.json package.json.ci-bak
-  cp package-lock.json package-lock.json.ci-bak
-  node -e "
-    const fs = require('fs');
-    const p = JSON.parse(fs.readFileSync('package.json', 'utf8'));
-    p.dependencies['@cobusgreyling/readiness-core'] = 'file:../readiness-core';
-    fs.writeFileSync('package.json', JSON.stringify(p, null, 2) + '\n');
-  "
-  npm install
-  mv package.json.ci-bak package.json
-  mv package-lock.json.ci-bak package-lock.json
+  npm ci
   npm test
 )
 
 echo "Building and testing goal-audit…"
 (
   cd tools/goal-audit
-  cp package.json package.json.ci-bak
-  cp package-lock.json package-lock.json.ci-bak
-  node -e "
-    const fs = require('fs');
-    const p = JSON.parse(fs.readFileSync('package.json', 'utf8'));
-    p.dependencies['@cobusgreyling/readiness-core'] = 'file:../readiness-core';
-    fs.writeFileSync('package.json', JSON.stringify(p, null, 2) + '\n');
-  "
-  npm install
-  mv package.json.ci-bak package.json
-  mv package-lock.json.ci-bak package-lock.json
+  npm ci
   npm test
 )
 
