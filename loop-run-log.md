@@ -21,11 +21,6 @@ Append one entry per run. Prune entries older than 30 days.
 
 <!-- Loop appends below this line -->
 
-{"run_id":"2026-06-29T12:19:22Z","pattern":"daily-triage","duration_s":11,"items_found":1,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"28371487400"}
-{"run_id":"2026-06-30T10:45:45Z","pattern":"daily-triage","duration_s":5,"items_found":1,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"28438630994"}
-{"run_id":"2026-07-01T10:58:40Z","pattern":"daily-triage","duration_s":13,"items_found":1,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"28512589078"}
-{"run_id":"2026-07-02T10:24:43Z","pattern":"daily-triage","duration_s":6,"items_found":1,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"28583039613"}
-{"run_id":"2026-07-03T10:22:35Z","pattern":"daily-triage","duration_s":5,"items_found":1,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"28654370263"}
 {"run_id":"2026-07-06T11:51:49Z","pattern":"daily-triage","duration_s":11,"items_found":1,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"28789456176"}
 {"run_id":"2026-07-07T10:41:34Z","pattern":"daily-triage","duration_s":4,"items_found":1,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"28860121407"}
 {"run_id":"2026-07-08T10:01:59Z","pattern":"daily-triage","duration_s":10,"items_found":1,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"28934262192"}
@@ -48,3 +43,4 @@ Append one entry per run. Prune entries older than 30 days.
 {"run_id":"2026-07-23T10:05:00Z","pattern":"pr-housekeeping","duration_s":420,"items_found":7,"actions_taken":3,"escalations":0,"tokens_estimate":80000,"readiness_score":100,"outcome":"fix-proposed","merged":[355,356,357],"open_remaining":[362,360,359,358],"notes":"docs batch merged; tooling left for human review"}
 {"run_id":"2026-07-24T08:47:32Z","pattern":"daily-triage","duration_s":16,"items_found":1,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"30080160209"}
 {"run_id":"2026-07-27T09:01:11Z","pattern":"daily-triage","duration_s":5,"items_found":1,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"30252141861"}
+{"run_id":"2026-08-03T11:15:18Z","pattern":"daily-triage","duration_s":8,"items_found":1,"actions_taken":1,"escalations":0,"tokens_estimate":52000,"readiness_score":100,"outcome":"report-only","workflow_run":"30808787140"}
